@@ -1,0 +1,48 @@
+﻿
+@using System.Data
+@using Pointeuse.Models;
+@model DataTable
+
+
+@{
+    var ListeClasse = ViewData["Eleves"] as List<Eleve>;
+}
+
+
+<header>
+    <img src="~/images/log.png" alt="Logo" />
+</header>
+
+<h1>Liste de Filière</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayName("Promotion")</th>
+            <th>@Html.DisplayName("Niveau")</th>
+            <th>@Html.DisplayName("Année")</th>
+            <th>@Html.DisplayName("Groupe")</th>
+            <th>@Html.DisplayName("Formation")</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Eleve row in ListeClasse)
+        {
+            <tr>
+                <td>@row.Promotion.Nom</td>
+                <td>@row.Promotion.Niveau</td>
+                <td>@row.Promotion.Annee</td>
+                <td>@row.Groupe.Nom</td>
+                <td>@row.Groupe.Formation</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Index")">Etudiants</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+           
+
