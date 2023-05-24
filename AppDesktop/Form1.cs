@@ -26,5 +26,18 @@ namespace AppDesktop
             var eleve = response.Content.ReadAsAsync<IEnumerable<Models.Eleve>>().Result;
             dataGridView1.DataSource = eleve;
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
     }
 }
