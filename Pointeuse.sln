@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationWeb", "..\Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDesktop", "AppDesktop\AppDesktop.csproj", "{F567247B-EC05-431A-8453-8098D5D187A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppdesktop", "WpfAppdesktop\WpfAppdesktop.csproj", "{CC4B53D9-EFE0-4EB4-9E82-C5A7DF050E94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F567247B-EC05-431A-8453-8098D5D187A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F567247B-EC05-431A-8453-8098D5D187A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F567247B-EC05-431A-8453-8098D5D187A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4B53D9-EFE0-4EB4-9E82-C5A7DF050E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4B53D9-EFE0-4EB4-9E82-C5A7DF050E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4B53D9-EFE0-4EB4-9E82-C5A7DF050E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4B53D9-EFE0-4EB4-9E82-C5A7DF050E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
