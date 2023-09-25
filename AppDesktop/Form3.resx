@@ -121,7 +121,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAKR5JREFUeF7tnXlwFOXWxlMURVFf8Yf1lXW/uygq+yYIqCBiQIWwXNe4skWWEBK2
+        wAAADsABataJCQAAKR5JREFUeF7tnXlwFOXWxlMURVFf8Yf1lXW/uygq+yYIqCBiQIWwXNe4skWWEBK2
         hLCoELZcSOKKEBDZRUCvBAU0AU1MDAouROR6AwQkSAiGmZ6JIqIXcbn9zTO8gcnk9KTXmZ6Zc6p+VWi6
         3/U8Pd3vct4YtvAzhyS1cLpcnSSXK+5UdfXYD4o/eGrz5k1LcnOXbsnOXrx73ryMfU/OmnE4PT3t5NSp
         k6VJk5LPp6QkXUxJTvojOXm8DPBv/D/8Ddfg2lmee3Av0kBaSBNpIw/khTyRtygGGxubUXM4HE2dktTB
@@ -302,7 +302,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAANxlJREFUeF7t3Qe0LFWB9fGHZBAliYIoZkVFQVRkDKBIMqCAAQVH5wMRTIgRBcWc
+        DwAACw8BkvkDpQAANxlJREFUeF7t3Qe0LFWB9fGHZBAliYIoZkVFQVRkDKBIMqCAAQVH5wMRTIgRBcWc
         yCo6koyYZlRUDBgQhfkUmUGSAUcMCEqOEiR9397i0/ee+97bfft0d506/73Wby1WAV3hpL5dVecsICNl
         JXmY7CCvlyPkq3KinCrnyO/kUrlebpPr5GL5jZwtP5LvynFyuOwtT5cHyfJCCCG1xn2Y+zL3ae7b3Me5
         r3Of577PfaD7QveJ7hvdR7qvdJ/pvtN9qPtS96nuW93Huq91n7uBuA8mZOy5mzxbPig/kAvl/42ZG4Mb
@@ -821,22 +821,25 @@
   <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Nom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Promotion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Prenom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Niveau.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="EMail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Annee.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Phone.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Promotion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Groupe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Niveau.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Annee.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>
